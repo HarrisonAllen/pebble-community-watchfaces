@@ -1,0 +1,161 @@
+{
+    "name": "p4g_black",
+    "author": "Harrison Allen",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {},
+    "keywords": ["pebble-app"],
+    "pebble": {
+      "displayName": "Persona 4 Golden - Black",
+      "uuid": "13371337-9962-4634-819a-a81d49cb2118",
+      "sdkVersion": "3",
+      "enableMultiJS": true,
+      "targetPlatforms": [
+        "basalt"
+      ],
+      "watchapp": {
+        "watchface": true
+      },
+      "messageKeys": {
+        "KEY_CONDITIONS": 0
+      },  
+      "capabilities": [
+        "location"
+      ],
+      "resources": {
+        "media": [
+            {
+                "file": "images/w_unknown.png",
+                "name": "W_UNKNOWN",
+                "type": "png"
+            },
+            {
+                "file": "images/w_thunder.png",
+                "name": "W_THUNDER",
+                "type": "png"
+            },
+            {
+                "file": "images/w_snow.png",
+                "name": "W_SNOW",
+                "type": "png"
+            },
+            {
+                "file": "images/w_rain.png",
+                "name": "W_RAIN",
+                "type": "png"
+            },
+            {
+                "file": "images/w_fog.png",
+                "name": "W_FOG",
+                "type": "png"
+            },
+            {
+                "file": "images/w_cloudy.png",
+                "name": "W_CLOUDY",
+                "type": "png"
+            },
+            {
+                "file": "images/w_clearn.png",
+                "name": "W_CLEARN",
+                "type": "png"
+            },
+            {
+                "file": "images/w_cleard.png",
+                "name": "W_CLEARD",
+                "type": "png"
+            },
+            {
+                "file": "images/status_red.png",
+                "name": "STATUS_RED",
+                "type": "png"
+            },
+            {
+                "file": "images/noon.png",
+                "name": "IMAGE_NOON",
+                "type": "png"
+            },
+            {
+                "file": "images/night.png",
+                "name": "IMAGE_NIGHT",
+                "type": "png"
+            },
+            {
+                "file": "images/morning.png",
+                "name": "IMAGE_MORNING",
+                "type": "png"
+            },
+            {
+                "file": "images/evening.png",
+                "name": "IMAGE_EVENING",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_9.png",
+                "name": "IMAGE_DIGIT_9",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_8.png",
+                "name": "IMAGE_DIGIT_8",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_7.png",
+                "name": "IMAGE_DIGIT_7",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_6.png",
+                "name": "IMAGE_DIGIT_6",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_5.png",
+                "name": "IMAGE_DIGIT_5",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_4.png",
+                "name": "IMAGE_DIGIT_4",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_3.png",
+                "name": "IMAGE_DIGIT_3",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_2.png",
+                "name": "IMAGE_DIGIT_2",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_1.png",
+                "name": "IMAGE_DIGIT_1",
+                "type": "png"
+            },
+            {
+                "file": "images/digit_0.png",
+                "name": "IMAGE_DIGIT_0",
+                "type": "png"
+            },
+            {
+                "file": "images/daytime.png",
+                "name": "IMAGE_DAYTIME",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[MTuWThFSaSu]",
+                "file": "fonts/Days.ttf",
+                "name": "FONT_DATE_22",
+                "type": "font"
+            }, 
+            {
+                "type": "bitmap", 
+                "name": "IMAGE_BACKGROUND", 
+                "file": "images/background.png"
+            }
+        ]
+      }
+    }
+}
