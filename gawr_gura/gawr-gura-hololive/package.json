@@ -1,0 +1,42 @@
+{
+  "name": "gawr-gura-hololive",
+  "author": "Harrison Allen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Gawr Gura - Hololive",
+    "uuid": "13371337-27bf-4e02-8954-cc7709b87b21",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "name": "FONT_TIME_52", 
+          "characterRegex": "[0-9:]", 
+          "file": "fonts/bubble.ttf", 
+          "type": "font", 
+          "compatibility": "2.7"
+        }, 
+        {
+            "type": "bitmap", 
+            "name": "IMAGE_GURA", 
+            "file": "images/gura.png"
+        }
+      ]
+    }
+  }
+}
