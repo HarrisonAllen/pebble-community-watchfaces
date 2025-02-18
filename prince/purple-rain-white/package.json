@@ -1,0 +1,42 @@
+{
+  "name": "purple-rain-white",
+  "author": "Harrison Allen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Purple Rain - White",
+    "uuid": "13371337-b7ec-4380-b131-3c9f44e2d1e4",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "name": "FONT_TIME_46", 
+          "characterRegex": "[0-9]", 
+          "file": "fonts/prince.ttf", 
+          "type": "font", 
+          "compatibility": "2.7"
+        }, 
+        {
+            "type": "bitmap", 
+            "name": "IMAGE_PRINCE", 
+            "file": "images/prince.png"
+        }
+      ]
+    }
+  }
+}
