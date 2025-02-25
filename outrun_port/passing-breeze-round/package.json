@@ -1,0 +1,240 @@
+{
+  "name": "passing-breeze-round",
+  "author": "Harrison Allen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "passing-breeze-round",
+    "uuid": "f6955312-463a-4fcf-9512-a3bc22e30ffa",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_00",
+          "file": "backgrounds/00.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_01",
+          "file": "backgrounds/01.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_02",
+          "file": "backgrounds/02.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_03",
+          "file": "backgrounds/03.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_04",
+          "file": "backgrounds/04.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_05",
+          "file": "backgrounds/05.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_06",
+          "file": "backgrounds/06.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_07",
+          "file": "backgrounds/07.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_08",
+          "file": "backgrounds/08.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_09",
+          "file": "backgrounds/09.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_10",
+          "file": "backgrounds/10.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_11",
+          "file": "backgrounds/11.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_12",
+          "file": "backgrounds/12.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_13",
+          "file": "backgrounds/13.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_14",
+          "file": "backgrounds/14.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_15",
+          "file": "backgrounds/15.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_16",
+          "file": "backgrounds/16.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_17",
+          "file": "backgrounds/17.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_18",
+          "file": "backgrounds/18.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BG_19",
+          "file": "backgrounds/19.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_RD_0",
+          "file": "roads/0.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_RD_1",
+          "file": "roads/1.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_RD_2",
+          "file": "roads/2.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_RD_3",
+          "file": "roads/3.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_RD_4",
+          "file": "roads/4.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_RD_5",
+          "file": "roads/5.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_RD_6",
+          "file": "roads/6.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_0",
+          "file": "battery/0.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_10",
+          "file": "battery/10.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_20",
+          "file": "battery/20.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_30",
+          "file": "battery/30.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_40",
+          "file": "battery/40.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_50",
+          "file": "battery/50.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_60",
+          "file": "battery/60.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_70",
+          "file": "battery/70.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_80",
+          "file": "battery/80.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_90",
+          "file": "battery/90.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_BT_100",
+          "file": "battery/100.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_CAR",
+          "file": "car.png"
+        },
+        {
+          "characterRegex": "[0-9:]",
+          "type": "font",
+          "name": "FONT_TIME_56",
+          "file": "fonts/time.ttf"
+        },
+        {
+          "characterRegex": "[0-9A-Za-z ]",
+          "type": "font",
+          "name": "FONT_DATE_28",
+          "file": "fonts/date.ttf"
+        },
+        {
+          "characterRegex": "[0-9%]",
+          "type": "font",
+          "name": "FONT_BATTERY_12",
+          "file": "fonts/battery.ttf"
+        }
+      ]
+    }
+  }
+}
