@@ -7,7 +7,8 @@
             "diorite"
         ],
         "name": "Hawkwind",
-        "author": "Harrison Allen"
+        "author": "Harrison Allen",
+        "uuid": "13371337-f48f-11ef-93c0-002b670b1da6"
     },
     "customization": {
         "background": {
